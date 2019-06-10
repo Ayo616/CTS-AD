@@ -1,0 +1,72 @@
+seeds
+iforest
+================= outlier ===================
+1.0    5
+2.0    3
+Name: label, dtype: int64
+================= normal ===================
+1.0    65
+2.0     4
+Name: label, dtype: int64
+
+LOF
+================= outlier ===================
+2.0    5
+1.0    3
+Name: label, dtype: int64
+================= normal ===================
+1.0    67
+2.0     2
+Name: label, dtype: int64
+
+my model
+global best generation index/total generations:0/2
+global best point:[53.76344086  2.02052786]
+global best target:0.922077922077922
+0.8831168831168831
+============ anomaly list =============
+2.0    6
+1.0    3
+Name: label, dtype: int64
+============ nomaly list =============
+1.0    67
+2.0     1
+Name: label, dtype: int64
+
+
+Pokemon
+iforest
+================= outlier ===================
+0.0    49
+1.0    31
+Name: label, dtype: int64
+================= normal ===================
+0.0    686
+1.0     34
+Name: label, dtype: int64
+
+LOF
+================= outlier ===================
+0.0    68
+1.0    12
+Name: label, dtype: int64
+================= normal ===================
+0.0    667
+1.0     53
+Name: label, dtype: int64
+
+
+my model
+global best generation index/total generations:0/2
+global best point:[1.52737048e+05 2.12023460e+00]
+global best target:0.9275
+0.925
+============ anomaly list =============
+0.0    35
+1.0    25
+Name: label, dtype: int64
+============ nomaly list =============
+0.0    700
+1.0     40
+Name: label, dtype: int64
+

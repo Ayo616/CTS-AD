@@ -1,0 +1,68 @@
+locationActivity
+
+iforest version
+================= outlier ===================
+lying down    7
+walking       6
+Name: label, dtype: int64
+================= normal ===================
+walking       116
+lying down      1
+Name: label, dtype: int64
+
+
+LOF
+================= outlier ===================
+lying down    7
+walking       6
+Name: label, dtype: int64
+================= normal ===================
+walking       116
+lying down      1
+Name: label, dtype: int64
+
+
+my model
+-------------------- SGA caculation result is: --------------------
+global best generation index/total generations:0/2
+global best point:[10.94819159  2.31085044]
+global best target:0.9230769230769231
+0.9230769230769231
+============ anomaly list =============
+lying down    7
+walking       3
+Name: label, dtype: int64
+============ nomaly list =============
+walking       119
+lying down      1
+Name: label, dtype: int64
+
+
+weardata
+
+iforest
+================= outlier ===================
+2.0    79
+1.0    43
+Name: label, dtype: int64
+================= normal ===================
+2.0    1097
+Name: label, dtype: int64
+
+LOF
+================= outlier ===================
+2.0    121
+1.0      1
+Name: label, dtype: int64
+================= normal ===================
+2.0    1055
+1.0      42
+
+
+my model
+============ anomaly list =============
+1.0    43
+Name: label, dtype: int64
+============ nomaly list =============
+2.0    1176
+Name: label, dtype: int64

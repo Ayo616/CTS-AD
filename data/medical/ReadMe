@@ -1,0 +1,78 @@
+Pima Indians Diabetes Database
+
+use outcome 1 0 as normal data. and generate articifally 15 abnormal data inserting it to construct the new
+dataset.
+result as following:
+
+-------------------- SGA config is: --------------------
+lower_bound:[1000, 2]
+upper_bound:[900000, 6]
+variables_num:2
+func:<function algorithm_function at 0x00000000066258C8>
+cross_rate:0.7
+mutation_rate:0.1
+population_size:100
+generations:2
+binary_code_length:10
+func_type:max
+-------------------- SGA caculation result is: --------------------
+global best generation index/total generations:2/2
+global best point:[3.48121212e+05 5.96089932e+00]
+global best target:0.9281553398058252
+0.920388349514563
+============ anomaly list =============
+ 0.0    26
+-1.0    15
+Name: Outcome, dtype: int64
+============ nomaly list =============
+0.0    474
+Name: Outcome, dtype: int64
+
+
+Diagnostic dataset
+B as normal, M as abnoral data.
+the result are following
+-------------------- SGA caculation result is: --------------------
+global best generation index/total generations:0/2
+global best point:[4.12272727e+05 3.90029326e+00]
+global best target:0.9278074866310161
+0.9224598930481284
+============ anomaly list =============
+B    16
+M    13
+Name: diagnosis, dtype: int64
+============ nomaly list =============
+B    341
+M      4
+Name: diagnosis, dtype: int64
+
+
+
+Genetic Variant Classifications(done)
+
+global best generation index/total generations:0/2
+global best point:[5.45501609e+08 2.93450635e+00]
+global best target:0.9295238095238095
+0.9271428571428572
+============ anomaly list =============
+0.0    141
+1.0     12
+Name: CLASS, dtype: int64
+============ nomaly list =============
+0.0    1859
+1.0      88
+Name: CLASS, dtype: int64
+
+
+EEG(done)
+global best generation index/total generations:0/2
+global best point:[1.37223845e+07 2.01173021e+00]
+global best target:0.9295238095238095
+0.9338095238095238
+============ anomaly list =============
+ 1.0    75
+-1.0    64
+Name: 190, dtype: int64
+============ nomaly list =============
+ 1.0    1925
+-1.0      36
